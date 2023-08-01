@@ -1,0 +1,55 @@
+body{
+  font-size: 1.3em;
+}
+.blue{
+  color: rgb(15, 99, 202);
+}
+.orange{
+  color: orange;
+}
+.grey{
+  color: rgb(145, 145, 145)!important;
+}
+.bg-blue{
+  background-color: rgb(2, 91, 153);
+  color: white;
+}
+.btn-sky{
+  background-color: rgb(148, 217, 255);
+  color: white;
+  border: 1px solid inherit;
+}
+.btn-sky:hover{
+  background-color: rgb(8, 126, 211);
+  color: white;
+}
+.material-symbols-outlined{
+  font-size: 1.3em!important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+hr{
+  height: 1px!important;
+  color: rgb(182, 182, 182)!important;
+}
+.list-group-item:hover{
+  background-color: rgb(237, 253, 254);
+  cursor: pointer;
+}
+.list-group-item.active{
+  background-color: rgb(228, 246, 254);
+  color: rgb(15, 99, 202);
+}
+a:hover{
+  text-decoration: none;
+}
+.event-bg{
+  background-image: url(../images/Other/city2.jpg);
+  background-size: contain;
+}
